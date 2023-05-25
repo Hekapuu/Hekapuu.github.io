@@ -1,5 +1,5 @@
 function encriptar() {
-  let texto = document.getElementById("texto").value;
+  let texto = document.getElementById("texto").value.trim();
   let tituloMensaje = document.getElementById("titulo-mensaje");
   let mensaje = document.getElementById("parrafo");
   let imagen = document.getElementById("imagen");
@@ -26,7 +26,7 @@ function encriptar() {
 }
 
 function desencriptar() {
-  let texto = document.getElementById("texto").value;
+  let texto = document.getElementById("texto").value.trim();
   let tituloMensaje = document.getElementById("titulo-mensaje");
   let mensaje = document.getElementById("parrafo");
   let imagen = document.getElementById("imagen");
